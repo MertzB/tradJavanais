@@ -1,0 +1,16 @@
+{
+  "name": "frToJavanais",
+  "version": "1.0.0",
+  "description": "traduit du français au javanais simplifié",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/frToJavanais.spec.js",
+    "doc": "jsdoc --pedantic --destination doc frToJavanais/index.js"
+  },
+  "author": "Benjamin MERTZ",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
