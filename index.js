@@ -1,6 +1,6 @@
 //main.js
 
-var frToJavanais = require('./frToJavanais');
+var tradJavanais = require('./frToJavanais');
 
 userValue = process.argv[2];
 
@@ -9,4 +9,4 @@ if (!userValue) {
   return;
 }
 
-console.log(frToJavanais.translateSync(userValue));
+console.log(tradJavanais.translateSync(userValue));
