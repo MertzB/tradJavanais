@@ -1,12 +1,14 @@
 # tradJavanais
 ## Utilisation
-tradJavanais accepte un argument, qu'il traduira en javanais simplifié.
+tradJavanais accepte deux argument, la langue de destination: -fr ou -jv et la phrase à traduire.
 
 Exemple d'utilisation : 
 ```
-node index.js "chaineDeCaractère" 
+node index.js -fr "bonjour"
+node index.js -jv "bavonjavour" 
+node index.js --test //réalise un test avec un dictionnaire intégré de 378989 mots
 ```
-## Test
+## Test unitaires
 Les tests sont réalisés avec mocha & chai, de manière à lancer les tests veuillez saisir la commande 
 ```
 npm test
